@@ -3954,6 +3954,7 @@ Bool Imager::clean(const String& algorithm,
       else if (algorithm=="msmfs") {
 	doMultiFields_p = False;
 	doWideBand_p = True;
+	settaylorterms (1, 3090000000);
 
         // check for wrong ftmachine specs.
 	if ( (ftmachine_p != "ft") && (ftmachine_p != "wproject") && 
