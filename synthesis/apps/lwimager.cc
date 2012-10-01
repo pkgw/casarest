@@ -459,6 +459,7 @@ int main (Int argc, char** argv)
     operation.downcase();
     AlwaysAssertExit (operation=="empty" || operation=="image" ||
                       operation=="psf"   || operation=="hogbom" ||
+		      operation=="wfhogbom" ||
                       operation=="clark" || operation=="csclean" ||
                       operation=="multiscale" || operation =="entropy");
     IPosition maskBlc, maskTrc;
